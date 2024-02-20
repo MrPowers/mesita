@@ -58,7 +58,7 @@ m = Mesita(field_names1, rows1, rows2, ["nc"], ["red", "bold"], lambda x, y: x =
 print("\n" + m.as_columns())
 ```
 
-![two_columns](https://github.com/MrPowers/chispa/blob/main/images/two_columns.png)
+![two_columns](https://github.com/MrPowers/mesita/blob/main/images/two_columns.png)
 
 **Tables side-by-side**
 
@@ -69,7 +69,7 @@ m = Mesita(field_names1, rows1, rows2, ["nc"], ["red", "bold"], lambda x, y: x =
 print("\n" + m.side_by_side())
 ```
 
-![side_by_side](https://github.com/MrPowers/chispa/blob/main/images/side_by_side.png)
+![side_by_side](https://github.com/MrPowers/mesita/blob/main/images/side_by_side.png)
 
 **Tables combined into one**
 
@@ -80,4 +80,4 @@ m = Mesita(field_names, rows1, rows2, ["nc"], ["red", "bold"], lambda x, y: x ==
 print("\n" + m.smush())
 ```
 
-![smush](https://github.com/MrPowers/chispa/blob/main/images/smush.png)
+![smush](https://github.com/MrPowers/mesita/blob/main/images/smush.png)
