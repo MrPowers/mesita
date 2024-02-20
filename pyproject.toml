@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mesita"
+version = "0.0.1"
+description = "Prints tables in terminal"
+authors = ["Matthew Powers <matthewkevinpowers@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
